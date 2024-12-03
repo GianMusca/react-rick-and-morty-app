@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --primary-color: #6ECCAF;
-  --secondary-color: #344D67; 
+  --primary-color: #344D67;
+  --secondary-color: #6ECCAF; 
 }
 
 *{
   font-family: Raleway, sans-serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   padding: 0px;
   margin: 0px;
+}
+
+body{
+  background: left/cover url("./assets/rickymorty.jpg");
+}
+
+#tx-cl-1{
+  color: var(--primary-color);
+}
+
+#tx-cl-2{
+  color: var(--secondary-color);
 }

@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+}
+
+#home-hero{
+    height: 600px;
+    width: 600px;
+    background-color: #ffffffe6;
+}
+
+.title-1{
+    font-size: 40px;
+    margin-top: 4rem;
+}
