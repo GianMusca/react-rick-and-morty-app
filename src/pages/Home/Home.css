@@ -1,4 +1,5 @@
 p{
+    color: #344D67;
     text-align: center;
 }
 
@@ -6,9 +7,56 @@ p{
     height: 600px;
     width: 600px;
     background-color: #ffffffe6;
+    min-width: 320px;
 }
 
 .title-1{
     font-size: 40px;
     margin-top: 4rem;
+    color: #344D67;
+}
+
+.title-2{
+    color: #344D67;
+}
+
+@media (max-width: 800px) {
+    .title-1{
+        font-size: 34px;
+    }
+    .title-2{
+        color: #6ECCAF;
+    }
+}
+
+@media (max-width: 768px) {
+    #home-hero{
+        width: 662px;
+    }
+    .title-1{
+        font-size: 40px;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 711px) {
+    #home-hero{
+        width: calc(100% - 70px);
+    }
+}
+
+@media (max-width: 600px) {
+    .title-1{
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 416px) {
+    #home-hero{
+        padding: 0;
+    }
+    .title-1{
+        margin-top: 0;
+    }
 }

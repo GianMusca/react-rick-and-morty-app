@@ -1,0 +1,18 @@
+.basic-btn {
+    background-color: #344D67;
+    color: #6ECCAF;
+    width: 112px;
+}
+
+.basic-btn:hover {
+    background-color: #6ECCAF;
+    color: #344D67;
+    border: none;
+    width: 120px;
+}
+
+@media (max-width: 400px) {
+    .title-1{
+        margin-top: 10px;
+    }
+}
