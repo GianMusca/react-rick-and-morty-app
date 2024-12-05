@@ -13,7 +13,7 @@
 }
 
 body{
-  background: left/cover url("./assets/rickymorty.jpg");
+  background: fixed/cover url("./assets/rickymorty.jpg");
 }
 
 #tx-cl-1{
