@@ -1,0 +1,30 @@
+.r-m-filter {
+    background-color: #344d67;
+    color: #6ECCAF;
+    font-size: 16px;
+    padding: 8px 48px;
+    margin: 0px;
+    border-radius: 0.5rem;
+}
+
+.r-m-switch {
+    background-color: #b1f0dc;
+}
+
+input:checked + label{
+    color: white;
+
+}
+
+@media (max-width: 1040px) {
+    .r-m-filter {
+        background-color: #344d67;
+        color: #6ECCAF;
+        width: 230px;
+        font-size: 16px;
+        padding: 8px 48px;
+        margin: 0px;
+        border-radius: 0.5rem;
+    }
+    
+}
