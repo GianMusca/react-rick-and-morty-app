@@ -1,0 +1,23 @@
+.r-m-info-item {
+    background-color: #223142;
+    color: #F5F5F5;
+    padding: 16px;
+}
+h4 {
+    font-size: 19px;
+    margin: 0;
+}
+p{
+    font-size: 19px;
+    color: #F5F5F5;
+    text-align: left;
+    margin: 0;
+}
+
+li:hover {
+    background-color: #6ECCAF;
+    color: #344D67;
+}
+li:hover > p{
+    color: #344D67;
+}

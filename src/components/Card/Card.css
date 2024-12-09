@@ -1,0 +1,41 @@
+.r-m-card {
+    height: 438px;
+    width: 317px;
+    background-color: #223142;
+    color: #6ECCAF;
+}
+.r-m-card-open{
+    height: 438px;
+    width: 650px;
+    background-color: #223142;
+    color: #6ECCAF;
+}
+
+.r-m-info {
+    width: 300px;
+}
+
+.r-m-image {
+    height: 300px;
+    width: 300px;
+}
+
+.t-cd-r-m {
+    font-size: 32px;
+}
+
+.btn-cd-r-m {
+    background-color: #6ECCAF;
+    color: #344d67;
+}
+
+@media (max-width: 670px) {
+    .r-m-card-open{
+        height: 770px;
+        width: 317px;
+    }
+    
+    .r-m-image {
+        margin-top: 0 !important;
+    }
+}
