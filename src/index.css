@@ -12,8 +12,21 @@
   box-sizing: border-box;
 }
 
+#root{
+  min-height: 100%; /* Asegura que el body al menos llene la ventana */
+  height: auto; /* Permite que el body se expanda según el contenido */
+}
+
+html {
+  min-height: 100%; /* Asegura que el body al menos llene la ventana */
+  height: auto; /* Permite que el body se expanda según el contenido */
+}
+
 body{
-  background: fixed/cover url("./assets/rickymorty.jpg");
+  background: url("./assets/rickymorty.jpg") fixed;
+  background-size: cover;
+  min-height: 100%; /* Asegura que el body al menos llene la ventana */
+  height: auto; /* Permite que el body se expanda según el contenido */
 }
 
 #tx-cl-1{

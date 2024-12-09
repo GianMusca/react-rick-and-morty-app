@@ -1,7 +1,7 @@
 import "./Home.css";
 import "../../index.css";
 
-import Button from "../../components/Button/Button"
+import Button from "../../components/Button/Button";
 
 export default function Home() {
   return (
@@ -11,7 +11,9 @@ export default function Home() {
     >
       <div id="home-hero" className="container-fluid">
         <h1 className="text-center title-1">Project Rick & Morty</h1>
-        <h2 className="text-center mt-4 title-2">Welcome to Rick & Morty Project!</h2>
+        <h2 className="text-center mt-4 title-2">
+          Welcome to Rick & Morty Project!
+        </h2>
         <p className="mt-4">
           This proyect was made for practising React and to made a functional
           website.
