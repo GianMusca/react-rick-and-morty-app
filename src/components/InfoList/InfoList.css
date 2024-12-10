@@ -3,11 +3,11 @@
     color: #F5F5F5;
     padding: 16px;
 }
-h4 {
+.info-titles {
     font-size: 19px;
     margin: 0;
 }
-p{
+.info-p{
     font-size: 19px;
     color: #F5F5F5;
     text-align: left;

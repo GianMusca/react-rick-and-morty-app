@@ -14,15 +14,15 @@ export default function Home() {
         <h2 className="text-center mt-4 title-2">
           Welcome to Rick & Morty Project!
         </h2>
-        <p className="mt-4">
+        <p className="mt-4 r-m-home-p">
           This proyect was made for practising React and to made a functional
           website.
         </p>
-        <p className="mt-md-4 mb-md-1 mb-0">
+        <p className="mt-md-4 mb-md-1 mb-0 r-m-home-p">
           In this website you can know information of the characters of this
           animated series.
         </p>
-        <p className="mt-md-4 mt-0">
+        <p className="mt-md-4 mt-0 r-m-home-p">
           Also you can filter for diferent types of properties to find the
           character that you are looking for or send us a massage for any
           concern o sugestion.

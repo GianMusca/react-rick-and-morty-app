@@ -1,10 +1,10 @@
-h1 {
+.r-m-h1 {
     color: #6ECCAF;
     font-size: 20px;
     padding: 40px 80px;
 }
 
-li {
+.r-m-nav-item {
     border-radius: 0.375rem;
 }
 
@@ -39,14 +39,14 @@ li {
 }
 
 @media (max-width: 575px) {
-    h1 {
+    .r-m-h1 {
         padding: 30px 40px;
     }
     
 }
 
 @media (max-width: 459px) {
-    h1 {
+    .r-m-h1 {
         padding: 30px 10px;
     }
     
