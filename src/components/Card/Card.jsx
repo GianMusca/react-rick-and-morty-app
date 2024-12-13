@@ -18,8 +18,8 @@ export default function Card({ characterInfo }) {
           className={`card-img-top card-img-bottom r-m-image ${moreOpen ? "mt-2" : ""}`}
           alt={`Image of ${characterInfo.name}`}
         />
-        <div className="card-body d-flex flex-column gap-2 p-0 align-items-center justify-content-evenly">
-          <h2 className="t-cd-r-m card-text text-wrap text-center pt-2">
+        <div className="card-body d-flex flex-column gap-0 p-0 align-items-center justify-content-between">
+          <h2 className="t-cd-r-m card-text text-wrap text-center pt-1">
             {characterInfo.name}
           </h2>
           {!moreOpen ? (
