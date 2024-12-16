@@ -38,6 +38,13 @@
     padding: 8px;
 }
 
+.r-m-pill-selected{
+    background-color: #6ECCAF;
+    color: #344D67;
+    padding: 8px;
+    border-radius: 0.375rem;
+}
+
 @media (max-width: 575px) {
     .r-m-h1 {
         padding: 30px 40px;

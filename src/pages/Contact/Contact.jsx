@@ -7,10 +7,10 @@ export default function Contact() {
   return (
     <>
       <header className="sticky-top">
-        <Navigation />
+        <Navigation page="Contact"/>
       </header>
       <main>
-        <Form></Form>
+        <Form />
       </main>
     </>
   );

@@ -5,7 +5,7 @@ import "./Navigation.css";
 
 import list from "../../assets/list.svg";
 
-export default function Navigation() {
+export default function Navigation({ page }) {
   return (
     <nav className="r-m-navbar navbar navbar-expand-lg container-fluid">
       <div className="container-fluid">
@@ -29,12 +29,22 @@ export default function Navigation() {
         >
           <ul className="navbar-nav align-items-center gap-2">
             <li className="nav-item r-m-nav-item">
-              <Link to={"/characters"} className="nav-link r-m-pill">
+              <Link
+                to={"/characters"}
+                className={`nav-link ${
+                  page === "Characters" ? "r-m-pill-selected" : "r-m-pill"
+                }`}
+              >
                 Characters
               </Link>
             </li>
             <li className="nav-item r-m-nav-item">
-            <Link to={"/contact"} className="nav-link r-m-pill">
+              <Link
+                to={"/contact"}
+                className={`nav-link ${
+                  page === "Contact" ? "r-m-pill-selected" : "r-m-pill"
+                }`}
+              >
                 Contact
               </Link>
             </li>

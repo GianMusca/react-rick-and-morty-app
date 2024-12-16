@@ -86,7 +86,7 @@ export default function Characters() {
   return (
     <>
       <header className="sticky-top">
-        <Navigation />
+        <Navigation page="Characters"/>
       </header>
       <main className="container-fluid w-100 vh-100 m-0 p-0">
         <section id="filter-section">
