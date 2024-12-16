@@ -33,7 +33,7 @@ export default function Navigation() {
                 Characters
               </Link>
             </li>
-            <li class="nav-item r-m-nav-item">
+            <li className="nav-item r-m-nav-item">
             <Link to={"/contact"} className="nav-link r-m-pill">
                 Contact
               </Link>
